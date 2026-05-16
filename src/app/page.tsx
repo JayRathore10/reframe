@@ -41,14 +41,14 @@ export default function Home() {
             </a>
 
             <a
-              href="#"
+              href="/contact"
               className="hover:text-blue-400 transition-colors duration-200"
             >
               Contact
             </a>
 
             <a
-              href="#"
+              href="/privacy"
               className="hover:text-blue-400 transition-colors duration-200"
             >
               Privacy Policy
