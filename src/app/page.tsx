@@ -11,12 +11,11 @@ export default function Home() {
       >
         ⭐ Star on GitHub
       </a>
-
       <main id="main-content" tabIndex={-1}>
         <VideoEditor />
       </main>
 
-      <footer className="w-full border-t border-white/10 bg-gradient-to-b from-[#0A2239] to-[#132E32] text-white px-6 py-10 mt-12">
+      <footer className="w-full border-t border-white/10 bg-gradient-to-b from-[#0A2239] to-[#132E32] text-white px-6 py-10 mt-4">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
 
           {/* Left Section */}
@@ -79,7 +78,7 @@ export default function Home() {
         <div className="mt-10 pt-6 border-t border-white/10 text-center text-xs text-gray-500">
           © 2026 Reframe · Open Source under MIT License
         </div>
-      </footer>
+      </footer> 
     </>
   );
 }
